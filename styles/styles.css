@@ -14,6 +14,7 @@ body {
 
 
 
+
 .container {
     width: 90%;
     margin: 5rem auto;
@@ -169,4 +170,32 @@ input, select {
     text-align: left;
     
     
+}
+
+
+
+
+
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+
+}
+
+
+.country-card {
+    position: relative;
+}
+.country {
+    position: absolute;
+}
+
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0;
+    gap: 1rem;
 }
